@@ -38,33 +38,37 @@
   }
 
 </style>
+<form action="" method="POST"> {{ csrf_field() }}
 
 		<div class="ui one column center aligned grid">
 			<div class="column six wide form-holder">
-				<h2 class="center aligned header form-head">HCS</h2>
+				<h2 class="center aligned header form-head">REGISTER</h2>
 				<div class="ui form">
-					<div class="field">
+					<div class="ui fluid field left icon input"><i class="user icon"></i>
 						<input type="text" placeholder="username">
 					</div>
-					<div class="field">
-						<input type="password" placeholder="password">
+					<div class="ui fluid field left icon input"><i class="lock icon"></i>
+						<input type="password" name="password" placeholder="password">
 					</div>
-
+					<div class="ui fluid field left icon input"><i class="lock icon"></i>
+						<input type="password" name="confirm_password" placeholder="confirm password">
+					</div>
 					<div class="ui large buttons fluid teal">
 						<div class="ui vertical animated button" tabindex="0">
-						  <a href="/register"><div class="hidden content"><i class="circle notched icon"></i></div></a>
+						  <div class="hidden content"><i class="circle notched icon"></i></div>
 						  <div class="visible content">
 						    Register
 						  </div>
 						</div>
 						<div class="ui vertical animated button" tabindex="0">
-						  <a href="/home"><div class="hidden content"><i class="right arrow icon"></i></div></a>
+						  <a href="/"><div class="hidden content"><i class="cancel icon"></i></div></a>
 						  <div class="visible content">
-						    Sign-In
+						    Cancel
 						  </div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+</form>
 @stop

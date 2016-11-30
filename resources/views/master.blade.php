@@ -10,6 +10,8 @@
 	<!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="/semantic/semantic.min.css">
+    <script src="/jquery/jquery-3.1.1.js"></script>
+    <script src="/semantic/semantic.min.js"></script>
     <!-- Styles -->
     <!-- Styles -->
         <style>
@@ -74,5 +76,10 @@
 <script src="/jquery/jquery-3.1.1.js"></script>
 <script src="/semantic/semantic.min.js"></script>
 	@yield('form')
+<script>
+    $( document ).ready(function() {
+        $('.menus .items').tab();
+    });
+</script>
 </body>
 </html>
