@@ -42,7 +42,7 @@
 	<div class="ui one column center aligned grid">
 		<div class="column ten wide form-holder">
 			<h2 class="center aligned header form-head">HCS</h2>
-				<div class="ui compact attached tabular menu">
+				<div class="ui stackable fluid four item top attached tabular menu">
 					  <a class="item active" data-tab="home">
 					    Home
 					  </a>
@@ -53,7 +53,7 @@
 					    Appointments
 					  </a>
 				</div>
-				<div class="ui attached tab segment" data-tab="supplies">
+				<div class="ui bottom attached tab segment" data-tab="supplies">
 				  SUPPLIES - There are many variations of passages of Lorem Ipsum available, but the majority 
 				  have suffered alteration in some form, by injected humour, or randomised words which don't 
 				  look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need 
@@ -64,7 +64,7 @@
 				  The generated Lorem Ipsum is therefore always free from repetition, injected humour, or 
 				  non-characteristic words etc.
 				</div>
-				<div class="ui attached tab segment" data-tab="appointments">
+				<div class="ui bottom attached tab segment" data-tab="appointments">
 				  APPOINTMENTS - There are many variations of passages of Lorem Ipsum available, but the majority 
 				  have suffered alteration in some form, by injected humour, or randomised words which don't 
 				  look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need 
@@ -75,7 +75,7 @@
 				  The generated Lorem Ipsum is therefore always free from repetition, injected humour, or 
 				  non-characteristic words etc.
 				</div>
-				<div class="ui active attached tab segment" data-tab="home">
+				<div class="ui active bottom attached tab segment" data-tab="home">
 				  @include('partials.home')
 				</div>
 			</div>

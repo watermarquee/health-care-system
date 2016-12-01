@@ -1,4 +1,4 @@
-<div class="ui compact secondary pointing menu">
+<div class="ui stackable secondary pointing menu">
   <a class="item active" data-tab="personal_information">
     Personal Information
   </a>
@@ -99,7 +99,7 @@
 </div>
 <!-- End Medication Tab -->
 <!-- Start Consultation History -->
-<div class="ui tab segment" data-tab="consultation_history">
+<div class="ui tab segment" data-tab="consultation_history" style="margin-bottom:14px">
 	@include('partials.consultation-history')
 </div>
 <!-- End Consultation History -->

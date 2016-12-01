@@ -10,7 +10,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="selectable">
       <td>1</td>
       <td>Morningstart</td>
       <td>Lucifer</td>
@@ -56,7 +56,7 @@
       <td>Natasha</td>
       <td>Female</td>
       <td>Russia</td>
-      <td class="selectable positive">
+      <td class="selectable">
         <a href="#">View Profile</a>
       </td>
     </tr>
