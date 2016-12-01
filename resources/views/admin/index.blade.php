@@ -47,7 +47,7 @@
 					    Home
 					  </a>
 					  <a class="item" data-tab="supplies">
-					    Supplies
+					    Medical Supplies
 					  </a>
 					  <a class="item" data-tab="appointments">
 					    Appointments

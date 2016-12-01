@@ -1,4 +1,4 @@
-<table class="ui celled table">
+<table class="ui selectable celled table">
   <thead>
     <tr>
       <th>ID. No.</th>
@@ -40,13 +40,13 @@
         <a href="#">View Profile</a>
       </td>
     </tr>
-    <tr class="warning">
+    <tr>
       <td>4</td>
       <td>Prince</td>
       <td>Diana</td>
       <td>Female</td>
       <td>Themiscyra</td>
-      <td class="selectable warning">
+      <td>
         <a href="/">View Profile</a>
       </td>
     </tr>
@@ -66,7 +66,7 @@
       <td>Alpha</td>
       <td>Unknown</td>
       <td>New Genesis</td>
-      <td class="selectable negative">
+      <td>
         <a href="#">View Profile</a>
       </td>
     </tr>
@@ -118,6 +118,7 @@
 });
 </script>
 <!-- End Add Profile Modal Data -->
+
 <!-- Start View Profile Modal Data -->
 <div class="ui fluid modal" id="modal_down">
   <div class="actions">
