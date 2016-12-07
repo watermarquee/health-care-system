@@ -38,14 +38,15 @@
   }
 
 </style>
-<form action="" method="POST"> {{ csrf_field() }}
-
+<form class="ui form" action="/register" method="POST"> {{ csrf_field() }}
 		<div class="ui one column center aligned grid">
 			<div class="column six wide form-holder">
 				<h2 class="center aligned header form-head">REGISTER</h2>
-				<div class="ui form">
 					<div class="ui fluid field left icon input"><i class="user icon"></i>
-						<input type="text" placeholder="username">
+						<input type="text" name="first_name" placeholder="username">
+					</div>
+					<div class="ui fluid field left icon input"><i class="mail icon"></i>
+						<input type="email" name="email" placeholder="e-mail">
 					</div>
 					<div class="ui fluid field left icon input"><i class="lock icon"></i>
 						<input type="password" name="password" placeholder="password">
@@ -53,21 +54,10 @@
 					<div class="ui fluid field left icon input"><i class="lock icon"></i>
 						<input type="password" name="confirm_password" placeholder="confirm password">
 					</div>
-					<div class="ui large buttons fluid teal">
-						<div class="ui vertical animated button" tabindex="0">
-						  <div class="hidden content"><i class="circle notched icon"></i></div>
-						  <div class="visible content">
-						    Register
-						  </div>
-						</div>
-						<div class="ui vertical animated button" tabindex="0">
-						  <a href="/"><div class="hidden content"><i class="cancel icon"></i></div></a>
-						  <div class="visible content">
-						    Cancel
-						  </div>
-						</div>
+					<div class="ui large teal buttons fluid teal">
+						<button class="ui button" type="submit" value="Register">Submit</button>
+						<button class="ui button" type="cancel"><a href="/">Cancel</a></button>
 					</div>
-				</div>
 			</div>
 		</div>
 </form>

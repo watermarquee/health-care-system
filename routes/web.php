@@ -18,4 +18,6 @@ Route::get('/', 'HomeController@form');
 Route::get('register', 'HomeController@register');
 
 //Administrative Routes
-Route::get('/home', 'AdminController@index');
+Route::get('home', 'AdminController@index');
+Route::get('register', 'AdminController@register');
+Route::post('register', 'AdminController@postRegister');
