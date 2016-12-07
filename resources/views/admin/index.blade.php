@@ -42,15 +42,12 @@
 	<div class="ui one column center aligned grid">
 		<div class="column ten wide form-holder">
 			<h2 class="center aligned header form-head">HCS</h2>
-				<div class="ui stackable fluid four item top attached tabular menu">
+				<div class="ui stackable fluid top attached tabular menu">
 					  <a class="item active" data-tab="home">
-					    Home
+					    Service Appointments
 					  </a>
 					  <a class="item" data-tab="supplies">
 					    Medical Supplies
-					  </a>
-					  <a class="item" data-tab="appointments">
-					    Appointments
 					  </a>
 				</div>
 				<div class="ui bottom attached tab segment" data-tab="supplies">
@@ -64,19 +61,8 @@
 				  The generated Lorem Ipsum is therefore always free from repetition, injected humour, or 
 				  non-characteristic words etc.
 				</div>
-				<div class="ui bottom attached tab segment" data-tab="appointments">
-				  APPOINTMENTS - There are many variations of passages of Lorem Ipsum available, but the majority 
-				  have suffered alteration in some form, by injected humour, or randomised words which don't 
-				  look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need 
-				  to be sure there isn't anything embarrassing hidden in the middle of text. 
-				  All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
-				  making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, 
-				  combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. 
-				  The generated Lorem Ipsum is therefore always free from repetition, injected humour, or 
-				  non-characteristic words etc.
-				</div>
 				<div class="ui active bottom attached tab segment" data-tab="home">
-				  @include('partials.home')
+					  @include('partials.residents')
 				</div>
 			</div>
 		</div>

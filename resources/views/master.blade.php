@@ -10,6 +10,8 @@
 	<!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="/semantic/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/dataTables.semanticui.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/autoFill.semanticui.min.css">
     <script src="/jquery/jquery-3.1.1.js"></script>
     <script src="/semantic/semantic.min.js"></script>
     <!-- Styles -->
@@ -75,11 +77,46 @@
 <script type="text/javascript"></script>
 <script src="/jquery/jquery-3.1.1.js"></script>
 <script src="/semantic/semantic.min.js"></script>
+<script src="/js/jquery.dataTables.min.js"></script>
+<script src="/js/dataTables.semanticui.min.js"></script>
+<script src="/js/dataTables.autoFill.min.js"></script>
+<script src="/js/autoFill.semanticui.min.js"></script>
+
 	@yield('form')
+
 <script>
     $( document ).ready(function() {
         $('.menus .items').tab();
     });
+
+    $(document).ready(function() {
+        $('#modal_add_event').click(function() {
+            $('#modal_add_event_date').modal('show');    
+         });
+    });
+
+    $(document).ready(function() {
+        $('#modal_service_logs').click(function() {
+            $('#modal_service_logs_list').modal('show');    
+         });
+    });
+
+    $(document).ready(function() {
+        $('#modal_show_events').click(function() {
+            $('#modal_show_events_list').modal('show');  
+
+         });
+    });
+
+    $( document ).ready(function() {
+        $('.menu .item').tab();
+    });
+    
+    $('#modal_add_service').click(function(){
+        $('#add_service_modal').modal('show');    
+    });
+
 </script>
+
 </body>
 </html>
