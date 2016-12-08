@@ -120,7 +120,7 @@
   </div>
   <div class="ui center aligned grid">
     <div class="ui form" style="margin-bottom: 30px; margin-top: 30px; margin-left: 30px; margin-right: 30px;">
-      test
+      @include('pages.equipments')
     </div>
   </div>
 </div>

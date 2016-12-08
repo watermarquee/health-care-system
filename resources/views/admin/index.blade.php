@@ -49,6 +49,9 @@
 					  <a class="item" data-tab="supplies">
 					    Medical Supplies
 					  </a>
+            <a class="item" data-tab="bulk_sms">
+              Bulk SMS
+            </a>
 				</div>
 
          <!-- START ACTIVE TAB -->
@@ -75,6 +78,9 @@
             <!-- START NON-ACTIVE TAB -->
             <div class="ui bottom attached tab segment" data-tab="supplies">
               @include('pages.medical-supplies')
+            </div>
+            <div class="ui bottom attached tab segment" data-tab="bulk_sms">
+              TEST BULK SMS
             </div>
           </div><!-- END NON-ACTIVE TAB -->
 
