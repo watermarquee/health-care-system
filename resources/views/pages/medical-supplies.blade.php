@@ -75,6 +75,31 @@
 </div>
 <!-- End equipments tab -->
 
+<!-- Start equipments tab -->
+<div class="ui tab segment" data-tab="add_supply">
+  <div class="ui form">
+    <div class="ui fluid field">
+      <div class="ui field">
+       <input placeholder="Item Name" name="item_name" type="text">
+      </div>
+    </div>
+  <div class="field">
+    <select class="ui dropdown">
+      <option value=""disabled selected hidden>Type</option>
+      <option value="medicine_supple">Medicine</option>
+      <option value="equipment_supply">Equipment</option>
+    </select>
+  </div>
+    <div class="field">
+      <input placeholder="Supplier" type="text">
+    </div>
+  </div>
+    <button class="ui teal icon button" style="margin-top: 15px; border-radius: 0px;">
+      <i class="add icon"></i>
+    </button>
+</div>
+<!-- End equipments tab -->
+
 <!-- Start menu Modal Data -->
 <div class="ui fluid modal" id="credit_modal">
   <div class="actions">

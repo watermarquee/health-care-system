@@ -5,6 +5,10 @@
         $('#examplists').DataTable({
             autoFill: true
         });
+
+        $('#modal_add_debit').click(function(){
+            $('#modal_add_debit_list').modal('show');    
+        });
     });
 
     </script>
@@ -13,7 +17,7 @@
         <thead>
             <tr>
                 <th colspan="8">
-                    <button class="mini teal left labeled icon right floated ui button">
+                    <button class="mini teal left labeled icon right floated ui button" id="modal_add_debit">
                     <i class="icon add"></i>
                         Add Debit
                     </button>
@@ -24,7 +28,7 @@
                 <th colspan="3">Quantity: 507</th>
             </tr>
             <tr>
-                <th>Credit I.D.</th>
+                <th>Debit I.D.</th>
                 <th>Brand</th>
                 <th>Quantity</th>
                 <th>Date Added</th>
@@ -32,7 +36,7 @@
         </thead>
         <tfoot>
             <tr>
-                <th>Credit I.D.</th>
+                <th>Debit I.D.</th>
                 <th>Brand</th>
                 <th>Quantity</th>
                 <th>Date Added</th>
@@ -329,3 +333,19 @@
             </tr>
         </tbody>
     </table>
+
+<!-- Start Add New debit Modal Data -->
+<div class="ui fluid modal" id="modal_add_debit_list">
+  <div class="actions">
+    <a class="cancel"><i class="close icon"></i></a>
+  </div>
+  <div class="ui center aligned grid">
+    <div class="column ten wide form-holder" align="center" style="margin-bottom: 30px;">
+    <div style="margin-bottom: 30px;">
+        <h4 class="ui image header"><i class="teal doctor icon"></i>
+    </div>
+        @include('partials.adddebit')
+    </div>
+  </div>
+</div>
+<!-- End Add New debit Modal Data -->

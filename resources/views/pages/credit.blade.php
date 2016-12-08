@@ -5,6 +5,10 @@
         $('#examplist').DataTable({
             autoFill: true
         });
+
+        $('#modal_add_credit').click(function(){
+            $('#modal_add_credit_list').modal('show');    
+        });
     });
 
     </script>
@@ -13,7 +17,7 @@
         <thead>
             <tr>
                 <th colspan="8">
-                    <button class="mini teal left labeled icon right floated ui button">
+                    <button class="mini teal left labeled icon right floated ui button" id="modal_add_credit">
                     <i class="icon add"></i>
                         Add Credit
                     </button>
@@ -329,3 +333,18 @@
             </tr>
         </tbody>
     </table>
+<!-- Start Add New credit Modal Data -->
+<div class="ui fluid modal" id="modal_add_credit_list">
+  <div class="actions">
+    <a class="cancel"><i class="close icon"></i></a>
+  </div>
+  <div class="ui center aligned grid">
+    <div class="column ten wide form-holder" align="center" style="margin-bottom: 30px;">
+    <div style="margin-bottom: 30px;">
+        <h4 class="ui image header"><i class="teal doctor icon"></i>
+    </div>
+        @include('partials.addcredit')
+    </div>
+  </div>
+</div>
+<!-- End Add New credit Modal Data -->

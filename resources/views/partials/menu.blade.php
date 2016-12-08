@@ -14,7 +14,7 @@
 	  <tbody>
 	    <tr>
 	      <td class="selectable" data-tooltip="Show Service Logs" data-inverted="">
-	      	<a href="#" id="modal_service_logs"> Free Condoms Giveaway</a>
+	      	<a href="#" id="modal_service_logs"> Free Vaccine Giveaway</a>
 	      </td>
 	      <td class="selectable" data-tooltip="Show All Event History" data-inverted="">
 		  	<a href="#" id="modal_show_events">November 30, 2016</a>

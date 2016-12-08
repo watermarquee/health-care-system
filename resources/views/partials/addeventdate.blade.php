@@ -1,6 +1,6 @@
 <table class="ui fluid celled table">
  <h4 class="ui image header"><i class="teal heartbeat icon"></i>
- Free Condom Giveaways</h4>
+ Free Vaccine Giveaways</h4>
   <thead>
     <tr>
       <th>Event Date</th>
