@@ -2,14 +2,14 @@
     <script type="text/javascript" class="init">
 
     $(document).ready(function() {
-        $('#example').DataTable({
+        $('#example-event').DataTable( {
             autoFill: true
-        });
-    });
+        } );
+    } );
 
     </script>
 
-<table id="example" class="ui celled table" cellspacing="0" width="100%">
+<table id="example-event" class="ui celled table" cellspacing="0" width="100%">
         <thead>
             <tr>
                 <th colspan="8">
@@ -31,7 +31,7 @@
                 <th>Address</th>
                 <th>Age</th>
                 <th>Marital Status</th>
-                <th>Contact</th>
+                <th>Nationality</th>
             </tr>
         </thead>
         <tfoot>
@@ -41,7 +41,7 @@
                 <th>Address</th>
                 <th>Age</th>
                 <th>Marital Status</th>
-                <th>Contact</th>
+                <th>Nationality</th>
             </tr>
         </tfoot>
         <tbody>
@@ -51,7 +51,7 @@
                 <td>Edinburgh</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Garrett Winters</td>
@@ -59,7 +59,7 @@
                 <td>Tokyo</td>
                 <td>63</td>
                 <td>Married</td>
-                <td>09192233456</td>
+                <td>Australian</td>
             </tr>
             <tr>
                 <td>Ashton Cox</td>
@@ -67,7 +67,7 @@
                 <td>San Francisco</td>
                 <td>66</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Cedric Kelly</td>
@@ -75,7 +75,7 @@
                 <td>Edinburgh</td>
                 <td>22</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Airi Satou</td>
@@ -83,7 +83,7 @@
                 <td>Tokyo</td>
                 <td>33</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Brielle Williamson</td>
@@ -91,7 +91,7 @@
                 <td>New York</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Herrod Chandler</td>
@@ -99,7 +99,7 @@
                 <td>San Francisco</td>
                 <td>59</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Rhona Davidson</td>
@@ -107,7 +107,7 @@
                 <td>Tokyo</td>
                 <td>55</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Colleen Hurst</td>
@@ -115,7 +115,7 @@
                 <td>San Francisco</td>
                 <td>39</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Tiger Nixon</td>
@@ -123,7 +123,7 @@
                 <td>Edinburgh</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Garrett Winters</td>
@@ -131,7 +131,7 @@
                 <td>Tokyo</td>
                 <td>63</td>
                 <td>Married</td>
-                <td>09192233456</td>
+                <td>Australian</td>
             </tr>
             <tr>
                 <td>Ashton Cox</td>
@@ -139,7 +139,7 @@
                 <td>San Francisco</td>
                 <td>66</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Cedric Kelly</td>
@@ -147,7 +147,7 @@
                 <td>Edinburgh</td>
                 <td>22</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Airi Satou</td>
@@ -155,7 +155,7 @@
                 <td>Tokyo</td>
                 <td>33</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Brielle Williamson</td>
@@ -163,7 +163,7 @@
                 <td>New York</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Herrod Chandler</td>
@@ -171,7 +171,7 @@
                 <td>San Francisco</td>
                 <td>59</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Rhona Davidson</td>
@@ -179,7 +179,7 @@
                 <td>Tokyo</td>
                 <td>55</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Colleen Hurst</td>
@@ -187,7 +187,7 @@
                 <td>San Francisco</td>
                 <td>39</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Tiger Nixon</td>
@@ -195,7 +195,7 @@
                 <td>Edinburgh</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Garrett Winters</td>
@@ -203,7 +203,7 @@
                 <td>Tokyo</td>
                 <td>63</td>
                 <td>Married</td>
-                <td>09192233456</td>
+                <td>Australian</td>
             </tr>
             <tr>
                 <td>Ashton Cox</td>
@@ -211,7 +211,7 @@
                 <td>San Francisco</td>
                 <td>66</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Cedric Kelly</td>
@@ -219,7 +219,7 @@
                 <td>Edinburgh</td>
                 <td>22</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Airi Satou</td>
@@ -227,7 +227,7 @@
                 <td>Tokyo</td>
                 <td>33</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Brielle Williamson</td>
@@ -235,7 +235,7 @@
                 <td>New York</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Herrod Chandler</td>
@@ -243,7 +243,7 @@
                 <td>San Francisco</td>
                 <td>59</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Rhona Davidson</td>
@@ -251,7 +251,7 @@
                 <td>Tokyo</td>
                 <td>55</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Colleen Hurst</td>
@@ -259,7 +259,7 @@
                 <td>San Francisco</td>
                 <td>39</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Tiger Nixon</td>
@@ -267,7 +267,7 @@
                 <td>Edinburgh</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Garrett Winters</td>
@@ -275,7 +275,7 @@
                 <td>Tokyo</td>
                 <td>63</td>
                 <td>Married</td>
-                <td>09192233456</td>
+                <td>Australian</td>
             </tr>
             <tr>
                 <td>Ashton Cox</td>
@@ -283,7 +283,7 @@
                 <td>San Francisco</td>
                 <td>66</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Cedric Kelly</td>
@@ -291,7 +291,7 @@
                 <td>Edinburgh</td>
                 <td>22</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Airi Satou</td>
@@ -299,7 +299,7 @@
                 <td>Tokyo</td>
                 <td>33</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Brielle Williamson</td>
@@ -307,7 +307,7 @@
                 <td>New York</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Herrod Chandler</td>
@@ -315,7 +315,7 @@
                 <td>San Francisco</td>
                 <td>59</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Rhona Davidson</td>
@@ -323,7 +323,7 @@
                 <td>Tokyo</td>
                 <td>55</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Colleen Hurst</td>
@@ -331,7 +331,7 @@
                 <td>San Francisco</td>
                 <td>39</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Tiger Nixon</td>
@@ -339,7 +339,7 @@
                 <td>Edinburgh</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Garrett Winters</td>
@@ -347,7 +347,7 @@
                 <td>Tokyo</td>
                 <td>63</td>
                 <td>Married</td>
-                <td>09192233456</td>
+                <td>Australian</td>
             </tr>
             <tr>
                 <td>Ashton Cox</td>
@@ -355,7 +355,7 @@
                 <td>San Francisco</td>
                 <td>66</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Cedric Kelly</td>
@@ -363,7 +363,7 @@
                 <td>Edinburgh</td>
                 <td>22</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Airi Satou</td>
@@ -371,7 +371,7 @@
                 <td>Tokyo</td>
                 <td>33</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Brielle Williamson</td>
@@ -379,7 +379,7 @@
                 <td>New York</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Herrod Chandler</td>
@@ -387,7 +387,7 @@
                 <td>San Francisco</td>
                 <td>59</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Rhona Davidson</td>
@@ -395,7 +395,7 @@
                 <td>Tokyo</td>
                 <td>55</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Colleen Hurst</td>
@@ -403,7 +403,7 @@
                 <td>San Francisco</td>
                 <td>39</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Tiger Nixon</td>
@@ -411,7 +411,7 @@
                 <td>Edinburgh</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Garrett Winters</td>
@@ -419,7 +419,7 @@
                 <td>Tokyo</td>
                 <td>63</td>
                 <td>Married</td>
-                <td>09192233456</td>
+                <td>Australian</td>
             </tr>
             <tr>
                 <td>Ashton Cox</td>
@@ -427,7 +427,7 @@
                 <td>San Francisco</td>
                 <td>66</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Cedric Kelly</td>
@@ -435,7 +435,7 @@
                 <td>Edinburgh</td>
                 <td>22</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Airi Satou</td>
@@ -443,7 +443,7 @@
                 <td>Tokyo</td>
                 <td>33</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Brielle Williamson</td>
@@ -451,7 +451,7 @@
                 <td>New York</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Herrod Chandler</td>
@@ -459,7 +459,7 @@
                 <td>San Francisco</td>
                 <td>59</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Rhona Davidson</td>
@@ -467,7 +467,7 @@
                 <td>Tokyo</td>
                 <td>55</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Colleen Hurst</td>
@@ -475,7 +475,7 @@
                 <td>San Francisco</td>
                 <td>39</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Tiger Nixon</td>
@@ -483,7 +483,7 @@
                 <td>Edinburgh</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Garrett Winters</td>
@@ -491,7 +491,7 @@
                 <td>Tokyo</td>
                 <td>63</td>
                 <td>Married</td>
-                <td>09192233456</td>
+                <td>Australian</td>
             </tr>
             <tr>
                 <td>Ashton Cox</td>
@@ -499,7 +499,7 @@
                 <td>San Francisco</td>
                 <td>66</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Cedric Kelly</td>
@@ -507,7 +507,7 @@
                 <td>Edinburgh</td>
                 <td>22</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Airi Satou</td>
@@ -515,7 +515,7 @@
                 <td>Tokyo</td>
                 <td>33</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Brielle Williamson</td>
@@ -523,7 +523,7 @@
                 <td>New York</td>
                 <td>61</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Herrod Chandler</td>
@@ -531,7 +531,7 @@
                 <td>San Francisco</td>
                 <td>59</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Rhona Davidson</td>
@@ -539,7 +539,7 @@
                 <td>Tokyo</td>
                 <td>55</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
             <tr>
                 <td>Colleen Hurst</td>
@@ -547,7 +547,7 @@
                 <td>San Francisco</td>
                 <td>39</td>
                 <td>Single</td>
-                <td>0978665412</td>
+                <td>Hispanic</td>
             </tr>
         </tbody>
     </table>

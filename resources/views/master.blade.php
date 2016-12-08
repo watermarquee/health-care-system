@@ -85,6 +85,7 @@
 	@yield('form')
 
 <script>
+
     $( document ).ready(function() {
         $('.menus .items').tab();
     });
@@ -108,7 +109,7 @@
          });
     });
 
-    $( document ).ready(function() {
+    $(document).ready(function() {
         $('.menu .item').tab();
     });
     
@@ -116,6 +117,13 @@
         $('#add_service_modal').modal('show');    
     });
 
+    $(document).ready(function() {
+        $('.menu .item').tab();
+    });
+    
+    $('#modal_event_logs').click(function(){
+        $('#modal_event_logs_list').modal('show');    
+    });
 </script>
 
 </body>

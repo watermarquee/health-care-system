@@ -2,20 +2,21 @@
  <h4 class="ui image header"><i class="teal heartbeat icon"></i>
  Free Condom Giveaways</h4>
   <thead>
-    <tr><th>Event Date</th>
-    <th>Slots</th>
-  </tr>
+    <tr>
+      <th>Event Date</th>
+      <th>Slots</th>
+    </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-          <div class=" required date field">
+          <div class="required date field">
             <input type="date" placeholder="Date">
           </div>
       </h4>
       </td>
       <td>
-       <div class=" required field">
+       <div class="required field">
           <input type="number" placeholder="Available Slots">
         </div>
       </td>
