@@ -3,7 +3,7 @@
     Credits
   </a>
   <a class="item" data-tab="debits">
-    Dedits
+    Debits
   </a>
 </div>
 

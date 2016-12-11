@@ -56,7 +56,7 @@
     <a class="cancel"><i class="close icon"></i></a>
   </div>
   <div class="ui centered aligned grid">
-    <div class="ui one column center aligned grid" style="margin-top: 10px;">
+    <div class="ui one column center aligned grid" style="margin-top: 10px; margin-bottom: 20px;">
     	@include('partials.servicelogs')
     </div>
   </div>
@@ -69,7 +69,7 @@
     <a class="cancel"><i class="close icon"></i></a>
   </div>
   <div class="ui centered aligned grid">
-    <div class="ui one column center aligned grid"">
+    <div class="ui one column center aligned grid" style="margin-bottom: 20px;">
     	@include('partials.eventlogs')
     </div>
   </div>
