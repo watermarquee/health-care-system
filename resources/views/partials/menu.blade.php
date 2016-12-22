@@ -13,25 +13,19 @@
 	  </thead>
 	  <tbody>
 	    <tr>
+	    @foreach($services as $service)
 	      <td class="selectable" data-tooltip="Show Service Logs" data-inverted="">
-	      	<a href="#" id="modal_service_logs"> Free Vaccine Giveaway</a>
+	      	<a id="modal_service_logs"> {{ $service->service_name }}</a>
 	      </td>
 	      <td class="selectable" data-tooltip="Show All Event History" data-inverted="">
-		  	<a href="#" id="modal_show_events">November 30, 2016</a>
+		  	<a id="modal_show_events">{{ $service->service_date}}</a>
 	      </td>
-	      <td>0</td>
+	      <td>{{ $service->available_slots }}</td>
 	      <td class="selectable">
-	        <a href="#" id="modal_add_event" data-tooltip="Add New Event Date" data-inverted=""><i class="add icon"></i></a>
+	        <a id="modal_add_event" data-tooltip="Add New Event Date" data-inverted=""><i class="add icon"></i></a>
 	      </td>
 	    </tr>
-	    <tr>
-	      <td>Free Birth Control Pills Giveaway</td>
-	      <td>November 29, 2016</td>
-	      <td>37</td>
-	      <td class="selectable">
-	        <a href="#" id="modal_add_event" data-tooltip="Add New Event Date" data-inverted=""><i class="add icon"></i>
-	      </td>
-	    </tr>
+	    @endforeach
 	  </tbody>
 	</table>
 

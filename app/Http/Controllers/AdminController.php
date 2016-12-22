@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Residents;
+use App\Services;
 use Sentinel;
 
 class AdminController extends Controller
@@ -10,7 +11,8 @@ class AdminController extends Controller
     //
     public function index() {
         $residents = Residents::all();
-    	return view('admin.index')->with(compact('residents'));
+        $services = Services::all();
+    	return view('admin.index')->with(compact('residents','services'));
     }
 
     public function register() {

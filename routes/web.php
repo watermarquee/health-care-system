@@ -23,3 +23,6 @@ Route::post('register', 'AdminController@postRegister');
 
 //Residents Routes
 Route::post('residents', 'ResidentsController@store');
+
+//Service Routes
+Route::post('services', 'ServicesController@store');

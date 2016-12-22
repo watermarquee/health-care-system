@@ -92,24 +92,27 @@
     <div class="content">
       <div class="ui one column center aligned grid">
         <div class="column ten wide form-holder">
-          <div class="ui form">
+          <form class="ui form" action="/services" method="POST">
+            {{ csrf_field() }}
              <div class=" required field">
-                <input type="text" placeholder="Service Name">
+                <input type="text" placeholder="Service Name" name="service_name">
         </div>
         <div class=" required field">
-            <input type="number" placeholder="Available Slots">
+            <input type="number" placeholder="Available Slots" name="available_slots">
           </div>
           <div class=" required date field">
-            <input type="date" placeholder="Date">
+            <input type="date" placeholder="Date" name="service_date">
           </div>
           <div class="ui fluid required field input">
-                  <textarea placeholder="Descrption"></textarea>
+                  <textarea placeholder="Descrption" name="service_description"></textarea>
               </div>
-          </div>
           <div class="mini ui right floated actions buttons" style="margin-top: 10px;">
-            <div class="ui approve button" style="border-radius: 0px;">Add</div>
-          <div class="ui cancel button" style="border-radius: 0px;"">Cancel</div>
-      </div>
+          <button class="ui right floated small teal button" type="submit" style="border-radius: 0px;">
+            Add
+          </button>
+            <div class="ui cancel button" style="border-radius: 0px;"">Cancel</div>
+          </div>
+      </form>
         </div>
       </div>
     </div>
