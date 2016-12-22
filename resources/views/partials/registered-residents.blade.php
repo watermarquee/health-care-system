@@ -45,15 +45,13 @@
             </tr>
         </tfoot>
         <tbody>
-        <!-- for loop -->
             <tr>
-                <td>Tiger Nixon</td>
+                <td>Tiger</td>
                 <td>Elderly</td>
                 <td>Edinburgh</td>
                 <td>61</td>
                 <td>Single</td>
                 <td>Hispanic</td>
             </tr>
-        <!-- for loop -->
         </tbody>
     </table>

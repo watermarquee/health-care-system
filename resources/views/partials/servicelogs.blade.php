@@ -51,16 +51,16 @@
             </tr>
         </tfoot>
         <tbody>
-        <!-- Start For Loop -->
+        @foreach($residents as $resident)
             <tr>
-                <td>Tiger Nixon</td>
-                <td>Elderly</td>
-                <td>Edinburgh</td>
-                <td>61</td>
-                <td>Single</td>
-                <td>0978665412</td>
+                <td>{{ $resident->getFullName() }}</td>
+                <td>{{ $resident->class }}</td>
+                <td>{{ $resident->address }}</td>
+                <td>{{ $resident->age }}</td>
+                <td>{{ $resident->marital_status }}</td>
+                <td>{{ $resident->contacts }}</td>
             </tr>
-         <!-- End For Loop -->
+         @endforeach
         </tbody>
     </table>
 

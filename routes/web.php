@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,3 +20,6 @@ Route::get('register', 'HomeController@register');
 Route::get('home', 'AdminController@index');
 Route::get('register', 'AdminController@register');
 Route::post('register', 'AdminController@postRegister');
+
+//Residents Routes
+Route::post('residents', 'ResidentsController@store');
