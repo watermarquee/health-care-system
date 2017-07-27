@@ -1,9 +1,9 @@
 <div class="ui stackable secondary six item pointing menu">
   <a class="item active" data-tab="credits">
-    Credits
+    Available Supplies
   </a>
   <a class="item" data-tab="debits">
-    Debits
+    Remaining Supplies
   </a>
 </div>
 

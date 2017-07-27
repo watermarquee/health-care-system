@@ -19,7 +19,7 @@
                 <th colspan="8">
                     <button class="mini teal left labeled icon right floated ui button" id="modal_add_credit">
                     <i class="icon add"></i>
-                        Add Credit
+                        Add a Supply
                     </button>
                 </th>
             </tr>
